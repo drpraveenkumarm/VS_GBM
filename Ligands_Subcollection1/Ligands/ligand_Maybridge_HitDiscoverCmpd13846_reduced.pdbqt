@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  C_1 
+REMARK    2  A    between atoms: O_14  and  C_2 
+REMARK    3  A    between atoms: N_4  and  C_3 
+REMARK    4  A    between atoms: O_15  and  C_5 
+REMARK    5  A    between atoms: O_16  and  C_7 
+ROOT
+ATOM      1  C   UNL d   1       1.545  -0.312   0.295  0.00  0.00     0.108 A 
+ATOM      2  C   UNL d   1       0.648  -1.416   0.293  0.00  0.00     0.114 A 
+ATOM      3  C   UNL d   1      -0.721  -1.205   0.002  0.00  0.00     0.073 A 
+ATOM      4  C   UNL d   1      -1.162   0.097  -0.293  0.00  0.00     0.036 A 
+ATOM      5  C   UNL d   1       1.080   0.979  -0.004  0.00  0.00     0.087 A 
+ATOM      6  C   UNL d   1      -0.273   1.170  -0.283  0.00  0.00     0.040 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL d   1      -1.713  -2.238   0.057  0.00  0.00    -0.330 N 
+ATOM      8  C   UNL d   1      -1.677  -3.416   0.780  0.00  0.00     0.097 A 
+ATOM      9  C   UNL d   1      -2.830  -4.133   0.556  0.00  0.00     0.019 A 
+ATOM     10  C   UNL d   1      -3.629  -3.377  -0.321  0.00  0.00     0.019 A 
+ATOM     11  C   UNL d   1      -2.938  -2.218  -0.597  0.00  0.00     0.097 A 
+ENDBRANCH   3   7
+BRANCH   2  12
+ATOM     12  O   UNL d   1       1.072  -2.635   0.760  0.00  0.00    -0.352 OA
+ATOM     13  C   UNL d   1       1.802  -3.425  -0.181  0.00  0.00     0.210 C 
+ENDBRANCH   2  12
+BRANCH   1  14
+ATOM     14  C   UNL d   1       2.897  -0.491   0.861  0.00  0.00     0.298 C 
+ATOM     15  O   UNL d   1       3.269   0.052   1.893  0.00  0.00    -0.259 OA
+BRANCH  14  16
+ATOM     16  O   UNL d   1       3.636  -1.318   0.087  0.00  0.00    -0.322 OA
+ATOM     17  C   UNL d   1       4.850  -1.758   0.711  0.00  0.00     0.213 C 
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+BRANCH   5  18
+ATOM     18  O   UNL d   1       1.774   2.157   0.074  0.00  0.00    -0.355 OA
+ATOM     19  C   UNL d   1       3.054   2.195  -0.544  0.00  0.00     0.210 C 
+ENDBRANCH   5  18
+TORSDOF 5

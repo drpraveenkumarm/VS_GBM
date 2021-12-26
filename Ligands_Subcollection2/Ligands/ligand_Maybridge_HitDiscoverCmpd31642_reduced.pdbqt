@@ -1,0 +1,41 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  N_1 
+REMARK       I    between atoms: C_3  and  N_1 
+REMARK    2  A    between atoms: N_6  and  C_2 
+REMARK    3  A    between atoms: O_13  and  C_3 
+REMARK    4  A    between atoms: C_4  and  C_12 
+REMARK    5  A    between atoms: C_12  and  N_6 
+REMARK    6  A    between atoms: C_14  and  O_13 
+ROOT
+ATOM      1  C   UNL d   1       0.306  -0.993   1.295  0.00  0.00     0.176 C 
+ATOM      2  S   UNL d   1       1.004  -2.009   2.423  0.00  0.00    -0.041 SA
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   UNL d   1       0.951  -0.394   0.210  0.00  0.00    -0.279 N 
+ATOM      4  C   UNL d   1       2.256  -0.481  -0.244  0.00  0.00     0.366 C 
+ATOM      5  O   UNL d   1       2.795   0.477  -0.785  0.00  0.00    -0.238 OA
+ATOM      6  H   UNL d   1       0.550   0.492  -0.062  0.00  0.00     0.173 HD
+BRANCH   4   7
+ATOM      7  O   UNL d   1       2.828  -1.691  -0.043  0.00  0.00    -0.304 OA
+BRANCH   7   8
+ATOM      8  C   UNL d   1       4.202  -1.843  -0.426  0.00  0.00     0.176 C 
+ATOM      9  C   UNL d   1       5.064  -1.856   0.822  0.00  0.00     0.034 C 
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  10
+ATOM     10  N   UNL d   1      -1.020  -0.588   1.337  0.00  0.00    -0.361 N 
+ATOM     11  H   UNL d   1      -1.425  -0.214   0.488  0.00  0.00     0.162 HD
+BRANCH  10  12
+ATOM     12  C   UNL d   1      -2.012  -1.043   2.303  0.00  0.00     0.187 C 
+BRANCH  12  13
+ATOM     13  C   UNL d   1      -3.246  -0.221   2.191  0.00  0.00     0.070 A 
+ATOM     14  O   UNL d   1      -3.474   0.435   1.013  0.00  0.00    -0.325 OA
+ATOM     15  C   UNL d   1      -4.640   1.115   1.157  0.00  0.00     0.142 A 
+ATOM     16  C   UNL d   1      -5.176   0.896   2.403  0.00  0.00     0.027 A 
+ATOM     17  C   UNL d   1      -4.279   0.030   3.072  0.00  0.00     0.036 A 
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 6

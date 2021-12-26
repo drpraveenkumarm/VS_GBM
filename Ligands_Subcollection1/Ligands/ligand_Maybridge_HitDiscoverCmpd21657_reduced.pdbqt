@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_1 
+REMARK       I    between atoms: N_12  and  C_2 
+REMARK    2  A    between atoms: C_7  and  C_3 
+REMARK    3  A    between atoms: O_14  and  C_6 
+REMARK    4  A    between atoms: O_15  and  C_9 
+ROOT
+ATOM      1  C   UNL d   1       0.938   0.519  -0.734  0.00  0.00     0.112 C 
+ATOM      2  C   UNL d   1       0.256   1.055   0.299  0.00  0.00     0.040 C 
+ATOM      3  C   UNL d   1       0.299  -0.034  -1.879  0.00  0.00     0.105 C 
+ATOM      4  N   UNL d   1      -0.161  -0.502  -2.835  0.00  0.00    -0.191 NA
+ENDROOT
+BRANCH   1   5
+ATOM      5  C   UNL d   1       2.428   0.485  -0.633  0.00  0.00     0.260 C 
+ATOM      6  O   UNL d   1       3.041   0.922   0.336  0.00  0.00    -0.267 OA
+ATOM      7  N   UNL d   1       3.111  -0.076  -1.671  0.00  0.00    -0.365 N 
+ATOM      8  H   UNL d   1       2.692  -0.469  -2.506  0.00  0.00     0.159 HD
+ATOM      9  H   UNL d   1       4.120  -0.116  -1.595  0.00  0.00     0.159 HD
+ENDBRANCH   1   5
+BRANCH   2  10
+ATOM     10  C   UNL d   1      -1.208   1.084   0.385  0.00  0.00    -0.032 A 
+ATOM     11  C   UNL d   1      -1.885  -0.002   0.956  0.00  0.00     0.051 A 
+ATOM     12  C   UNL d   1      -3.288  -0.056   0.970  0.00  0.00     0.102 A 
+ATOM     13  C   UNL d   1      -4.018   1.032   0.466  0.00  0.00     0.101 A 
+ATOM     14  C   UNL d   1      -3.332   2.121  -0.092  0.00  0.00     0.040 A 
+ATOM     15  C   UNL d   1      -1.936   2.151  -0.137  0.00  0.00     0.014 A 
+BRANCH  12  16
+ATOM     16  O   UNL d   1      -3.966  -1.136   1.472  0.00  0.00    -0.353 OA
+ATOM     17  C   UNL d   1      -3.322  -2.401   1.335  0.00  0.00     0.210 C 
+ENDBRANCH  12  16
+BRANCH  13  18
+ATOM     18  O   UNL d   1      -5.380   1.153   0.373  0.00  0.00    -0.353 OA
+ATOM     19  C   UNL d   1      -6.159   0.518   1.378  0.00  0.00     0.210 C 
+ENDBRANCH  13  18
+ENDBRANCH   2  10
+TORSDOF 4
