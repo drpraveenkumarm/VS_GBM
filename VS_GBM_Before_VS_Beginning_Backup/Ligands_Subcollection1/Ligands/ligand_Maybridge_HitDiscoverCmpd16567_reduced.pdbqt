@@ -1,0 +1,43 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_1 
+REMARK    2  A    between atoms: C_3  and  C_1 
+REMARK    3  A    between atoms: N_4  and  C_1 
+REMARK    4  A    between atoms: O_10  and  C_2 
+REMARK    5  A    between atoms: O_9  and  C_3 
+REMARK       I    between atoms: C_5  and  N_4 
+REMARK    6  A    between atoms: C_13  and  O_9 
+REMARK    7  A    between atoms: C_12  and  O_10 
+ROOT
+ATOM      1  C   UNL d   1       0.919  -0.157   0.024  0.00  0.00     0.285 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL d   1       0.477  -1.546   0.455  0.00  0.00     0.291 C 
+ATOM      3  O   UNL d   1       0.518  -1.957   1.609  0.00  0.00    -0.262 OA
+BRANCH   2   4
+ATOM      4  O   UNL d   1       0.205  -2.322  -0.632  0.00  0.00    -0.320 OA
+BRANCH   4   5
+ATOM      5  C   UNL d   1       0.249  -3.736  -0.397  0.00  0.00     0.174 C 
+ATOM      6  C   UNL d   1       1.696  -4.202  -0.403  0.00  0.00     0.034 C 
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL d   1       0.494   0.855   1.075  0.00  0.00     0.291 C 
+ATOM      8  O   UNL d   1       1.272   1.477   1.787  0.00  0.00    -0.262 OA
+BRANCH   7   9
+ATOM      9  O   UNL d   1      -0.866   0.916   1.156  0.00  0.00    -0.320 OA
+BRANCH   9  10
+ATOM     10  C   UNL d   1      -1.377   1.510   2.358  0.00  0.00     0.174 C 
+ATOM     11  C   UNL d   1      -1.500   0.422   3.411  0.00  0.00     0.034 C 
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   1  12
+ATOM     12  N   UNL d   1       2.389  -0.156  -0.025  0.00  0.00    -0.340 N 
+ATOM     13  C   UNL d   1       3.077  -0.593  -1.123  0.00  0.00     0.214 C 
+ATOM     14  O   UNL d   1       2.529  -0.952  -2.157  0.00  0.00    -0.274 OA
+ATOM     15  C   UNL d   1       4.570  -0.634  -0.945  0.00  0.00     0.117 C 
+ATOM     16  H   UNL d   1       2.875   0.093   0.832  0.00  0.00     0.163 HD
+ENDBRANCH   1  12
+TORSDOF 7

@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_10  and  C_1 
+REMARK    2  A    between atoms: O_16  and  N_11 
+REMARK    3  A    between atoms: O_19  and  C_15 
+ROOT
+ATOM      1  C   UNL d   1       1.034   0.075  -0.038  0.00  0.00     0.065 C 
+ATOM      2  C   UNL d   1       0.272  -1.057  -0.120  0.00  0.00    -0.015 C 
+ATOM      3  C   UNL d   1      -1.195  -1.001  -0.016  0.00  0.00     0.015 C 
+ATOM      4  C   UNL d   1       0.842  -2.389  -0.349  0.00  0.00     0.015 C 
+ATOM      5  C   UNL d   1       0.387   1.359   0.077  0.00  0.00     0.101 C 
+ATOM      6  N   UNL d   1      -0.137   2.391   0.135  0.00  0.00    -0.191 NA
+ATOM      7  C   UNL d   1      -1.911  -2.095   0.288  0.00  0.00     0.032 C 
+ATOM      8  C   UNL d   1       0.154  -3.501  -0.051  0.00  0.00     0.032 C 
+ATOM      9  C   UNL d   1      -1.243  -3.421   0.460  0.00  0.00     0.054 C 
+ATOM     10  N   UNL d   1      -1.777  -4.489   0.970  0.00  0.00    -0.269 N 
+ATOM     11  HN  UNL d   1      -1.301  -5.388   1.037  1.00  0.00     0.194 HD
+ENDROOT
+BRANCH   1  12
+ATOM     12  C   UNL d   1       2.533   0.106  -0.008  0.00  0.00    -0.014 A 
+ATOM     13  C   UNL d   1       3.244   1.138  -0.650  0.00  0.00     0.016 A 
+ATOM     14  C   UNL d   1       4.645   1.212  -0.585  0.00  0.00     0.037 A 
+ATOM     15  C   UNL d   1       5.366   0.243   0.108  0.00  0.00     0.068 A 
+ATOM     16  C   UNL d   1       4.676  -0.762   0.781  0.00  0.00     0.037 A 
+ATOM     17  C   UNL d   1       3.278  -0.817   0.743  0.00  0.00     0.016 A 
+BRANCH  15  18
+ATOM     18  O   UNL d   1       6.725   0.198   0.237  0.00  0.00    -0.356 OA
+ATOM     19  C   UNL d   1       7.473   0.876  -0.767  0.00  0.00     0.210 C 
+ENDBRANCH  15  18
+ENDBRANCH   1  12
+BRANCH  10  20
+ATOM     20  O   UNL d   1      -3.085  -4.258   1.416  0.00  0.00    -0.289 OA
+ATOM     21  H   UNL d   1      -3.319  -5.112   1.825  0.00  0.00     0.244 HD
+ENDBRANCH  10  20
+TORSDOF 3

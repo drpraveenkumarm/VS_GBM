@@ -1,0 +1,47 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_11  and  C1_1 
+REMARK    1  A    between atoms: O3_3  and  C1_1 
+REMARK    2  A    between atoms: C5_4  and  O3_3 
+REMARK    3  A    between atoms: C6_5  and  C5_4 
+REMARK    4  A    between atoms: CA_12  and  N_11 
+REMARK    5  A    between atoms: CB_15  and  CA_12 
+REMARK    6  A    between atoms: CA_12  and  C_13 
+REMARK    7  A    between atoms: OXT_16  and  C_13 
+ROOT
+ATOM      1  C1  <1> d   1       2.995   1.224   1.926  0.00  0.00     0.361 C 
+ATOM      2  O1  <1> d   1       3.253   2.411   1.793  0.00  0.00    -0.238 OA
+ATOM      3  N   VAL d   1       1.933   0.822   2.692  0.00  0.00    -0.322 N 
+ATOM      4  H   VAL d   1       1.641   1.485   3.401  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  O3  <1> d   1       3.667   0.189   1.375  0.00  0.00    -0.299 OA
+BRANCH   5   6
+ATOM      6  C5  <1> d   1       4.661   0.519   0.394  0.00  0.00     0.219 C 
+BRANCH   6   7
+ATOM      7  C6  <1> d   1       6.051   0.803   0.922  0.00  0.00    -0.034 A 
+ATOM      8  C9  <1> d   1       6.929  -0.237   1.263  0.00  0.00     0.009 A 
+ATOM      9  C12 <1> d   1       8.264   0.033   1.595  0.00  0.00     0.001 A 
+ATOM     10  C13 <1> d   1       8.728   1.350   1.603  0.00  0.00     0.000 A 
+ATOM     11  C11 <1> d   1       7.860   2.392   1.301  0.00  0.00     0.001 A 
+ATOM     12  C10 <1> d   1       6.528   2.123   0.970  0.00  0.00     0.009 A 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   3  13
+ATOM     13  CA  VAL d   1       1.103  -0.367   2.410  0.00  0.00     0.188 C 
+BRANCH  13  14
+ATOM     14  CB  VAL d   1       1.177  -1.383   3.576  0.00  0.00     0.010 C 
+ATOM     15  CG1 VAL d   1       0.370  -2.660   3.305  0.00  0.00     0.012 C 
+ATOM     16  CG2 VAL d   1       2.630  -1.796   3.851  0.00  0.00     0.012 C 
+ENDBRANCH  13  14
+BRANCH  13  17
+ATOM     17  C   VAL d   1      -0.352   0.080   2.102  0.00  0.00     0.164 C 
+ATOM     18  O   VAL d   1      -1.274  -0.675   1.844  0.00  0.00    -0.648 OA
+BRANCH  17  19
+ATOM     19  OXT VAL d   1      -0.542   1.423   2.105  0.00  0.00    -0.775 OA
+ATOM     20  HXT VAL d   1       0.296   1.921   2.150  0.00  0.00     0.167 HD
+ENDBRANCH  17  19
+ENDBRANCH  13  17
+ENDBRANCH   3  13
+TORSDOF 7
